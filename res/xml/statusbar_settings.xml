@@ -22,6 +22,12 @@
         android:summary="@string/double_tap_to_sleep_summary"
         android:defaultValue="true" />
 
+    <com.deathly.settings.preferences.SystemSettingSwitchPreference
+        android:key="status_bar_notif_count"
+        android:title="@string/status_bar_notif_count_title"
+        android:summary="@string/status_bar_notif_count_summary"
+        android:defaultValue="false" />
+
     <PreferenceScreen
         android:fragment="com.deathly.settings.fragments.NetworkTrafficSettings"
         android:key="deathly_nettraffic_settings"

@@ -112,6 +112,9 @@
     <string name="network_traffic_autohide_threshold">Inactivity threshold</string>
     <string name="network_traffic_hidearrow">Hide arrows</string>
     <string name="network_traffic_hidearrow_summary">Hide the network traffic indicator arrows</string>
+    <!-- Notification count -->
+    <string name="status_bar_notif_count_title">Show notification count</string>
+    <string name="status_bar_notif_count_summary">Display the number of pending notifications</string>
 
     <!-- Lockscreen double tap to sleep -->
     <string name="double_tap_sleep_anywhere_title">Double-tap to sleep anywhere</string>
