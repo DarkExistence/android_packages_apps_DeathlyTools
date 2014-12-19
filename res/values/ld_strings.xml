@@ -19,6 +19,7 @@
     <!-- Categories -->
     <string name="deathly_interface">Interface</string>
     <string name="deathly_buttons">Buttons</string>
+	<string name="actions_category">Power menu items</string>
 
     <!-- Fragments -->
     <string name="statusbar_settings_title">Statusbar</string>
@@ -51,5 +52,18 @@
     <string name="hardware_keys_action_in_app_search">In-app search</string>
     <string name="hardware_keys_action_launch_camera">Open camera</string>
     <string name="hardware_keys_action_last_app">Launch last app</string>
+
+    <!-- Power menu customization -->
+    <string name="power_menu_reboot_title">Reboot</string>
+    <string name="power_menu_screenshot_title">Screenshot</string>
+    <string name="power_menu_airplane_title">Airplane mode</string>
+    <string name="power_menu_users_title">User switcher</string>
+    <string name="power_menu_search_title">Search</string>
+    <string name="power_menu_voice_title">Voice search</string>
+    <string name="power_menu_settings_title">Settings shortcut</string>
+    <string name="power_menu_lockdown_title">Device lockdown</string>
+    <string name="power_menu_bug_report_title">Bug report</string>
+    <string name="power_menu_sound_title">Sound panel</string>
+    <string name="power_menu_bug_report_disabled">Bug reporting is disabled in development settings</string>
 
 </resources>
