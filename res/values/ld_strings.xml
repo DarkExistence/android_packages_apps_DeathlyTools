@@ -25,7 +25,7 @@
     <string name="statusbar_settings_title">Statusbar</string>
     <string name="buttons_settings_title">Buttons</string>
     <string name="powermenu_settings_title">PowerMenu</string>
-	<string name="lockscreen_settings_title">Lockscreen</string>
+    <string name="lockscreen_settings_title">Lockscreen</string>
 
     <!-- Buttons -->
     <string name="buttons_pref_title">Buttons</string>
@@ -95,5 +95,9 @@
     <string name="network_traffic_autohide_threshold">Inactivity threshold</string>
     <string name="network_traffic_hidearrow">Hide arrows</string>
     <string name="network_traffic_hidearrow_summary">Hide the network traffic indicator arrows</string>
+
+    <!-- Lockscreen double tap to sleep -->
+    <string name="double_tap_sleep_anywhere_title">Double-tap to sleep anywhere</string>
+    <string name="double_tap_sleep_anywhere_summary">Double tap anywhere on the lockscreen to put the device to sleep</string>
 
 </resources>
