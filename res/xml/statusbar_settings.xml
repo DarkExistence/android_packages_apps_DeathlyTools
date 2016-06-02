@@ -29,6 +29,12 @@
         android:defaultValue="false" />
 
     <PreferenceScreen
+        android:fragment="com.deathly.settings.fragments.ClockSettings"
+        android:key="deathly_clock_settings"
+        android:title="@string/clock_settings_title"
+        android:summary="@string/clock_settings_summary" />
+
+    <PreferenceScreen
         android:fragment="com.deathly.settings.fragments.NetworkTrafficSettings"
         android:key="deathly_nettraffic_settings"
         android:title="@string/nettraffic_settings_title"
