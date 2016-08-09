@@ -40,4 +40,10 @@
         android:title="@string/nettraffic_settings_title"
         android:summary="@string/nettraffic_settings_summary" />
 
+    <com.deathly.settings.preferences.SystemSettingSwitchPreference
+        android:key="bluetooth_show_battery"
+        android:title="@string/bluetooth_battery_title"
+        android:summary="@string/bluetooth_battery_summary"
+        android:defaultValue="false" />
+
 </PreferenceScreen>
