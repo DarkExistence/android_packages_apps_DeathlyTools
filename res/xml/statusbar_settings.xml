@@ -29,6 +29,12 @@
         android:defaultValue="false" />
 
     <PreferenceScreen
+        android:fragment="com.deathly.settings.fragments.BatterySettings"
+        android:key="deathly_battery_settings"
+        android:title="@string/battery_settings_title"
+        android:summary="@string/battery_settings_summary" />
+
+    <PreferenceScreen
         android:fragment="com.deathly.settings.fragments.ClockSettings"
         android:key="deathly_clock_settings"
         android:title="@string/clock_settings_title"
@@ -53,11 +59,5 @@
                 android:targetPackage="com.android.systemui"
                 android:targetClass="com.android.systemui.tuner.TunerActivity" />
     </PreferenceScreen>
-
-    <com.deathly.settings.preferences.SystemSettingSwitchPreference
-        android:key="status_bar_show_battery_percent"
-        android:title="@string/show_battery_percentage"
-        android:summary="@string/show_battery_percentage_summary"
-        android:defaultValue="false" />
 
 </PreferenceScreen>
