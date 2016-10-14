@@ -18,18 +18,29 @@
         android:title="@string/deathly_settings_title" >
 
     <PreferenceCategory
-        android:key="pure_interface"
+        android:key="deathly_interface"
         android:title="@string/deathly_interface">
-
-        <PreferenceScreen
-            android:fragment="com.deathly.settings.fragments.ButtonsSettings"
-            android:key="deathly_buttons_settings"
-            android:title="@string/buttons_settings_title"/>
 
         <PreferenceScreen
             android:fragment="com.deathly.settings.fragments.StatusBarSettings"
             android:key="deathly_statusbar_settings"
             android:title="@string/statusbar_settings_title"/>
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:key="deathly_buttons"
+        android:title="@string/deathly_buttons">
+
+        <PreferenceScreen
+            android:fragment="com.deathly.settings.fragments.PowerMenuSettings"
+            android:key="deathly_powermenu_settings"
+            android:title="@string/powermenu_settings_title"/>
+
+        <PreferenceScreen
+            android:fragment="com.deathly.settings.fragments.ButtonsSettings"
+            android:key="deathly_buttons_settings"
+            android:title="@string/buttons_settings_title"/>
 
     </PreferenceCategory>
 

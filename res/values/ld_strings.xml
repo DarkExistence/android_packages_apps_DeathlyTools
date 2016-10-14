@@ -18,10 +18,12 @@
 
     <!-- Categories -->
     <string name="deathly_interface">Interface</string>
+    <string name="deathly_buttons">Buttons</string>
 
     <!-- Fragments -->
     <string name="statusbar_settings_title">Statusbar</string>
     <string name="buttons_settings_title">Buttons</string>
+    <string name="powermenu_settings_title">PowerMenu</string>
 
     <!-- Buttons -->
     <string name="buttons_pref_title">Buttons</string>
