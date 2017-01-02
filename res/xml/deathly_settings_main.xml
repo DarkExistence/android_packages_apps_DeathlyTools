@@ -17,4 +17,15 @@
         xmlns:settings="http://schemas.android.com/apk/res/com.android.settings"
         android:title="@string/deathly_settings_title" >
 
+    <PreferenceCategory
+        android:key="pure_interface"
+        android:title="@string/deathly_interface">
+
+        <PreferenceScreen
+            android:fragment="com.deathly.settings.fragments.StatusBarSettings"
+            android:key="deathly_statusbar_settings"
+            android:title="@string/statusbar_settings_title"/>
+
+    </PreferenceCategory>
+
 </PreferenceScreen>
