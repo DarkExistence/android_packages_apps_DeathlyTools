@@ -22,6 +22,11 @@
         android:title="@string/deathly_interface">
 
         <PreferenceScreen
+            android:fragment="com.deathly.settings.fragments.ButtonsSettings"
+            android:key="deathly_buttons_settings"
+            android:title="@string/buttons_settings_title"/>
+
+        <PreferenceScreen
             android:fragment="com.deathly.settings.fragments.StatusBarSettings"
             android:key="deathly_statusbar_settings"
             android:title="@string/statusbar_settings_title"/>
