@@ -27,6 +27,7 @@
     <string name="powermenu_settings_title">PowerMenu</string>
     <string name="lockscreen_settings_title">Lockscreen</string>
     <string name="notification_drawer_settings_title">Notification drawer</string>
+    <string name="display_settings_title">Display</string>
 
     <!-- General strings -->
     <string name="cancel">Cancel</string>
