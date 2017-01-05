@@ -25,6 +25,7 @@
     <string name="statusbar_settings_title">Statusbar</string>
     <string name="buttons_settings_title">Buttons</string>
     <string name="powermenu_settings_title">PowerMenu</string>
+	<string name="lockscreen_settings_title">Lockscreen</string>
 
     <!-- Buttons -->
     <string name="buttons_pref_title">Buttons</string>
