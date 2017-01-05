@@ -26,6 +26,7 @@
     <string name="buttons_settings_title">Buttons</string>
     <string name="powermenu_settings_title">PowerMenu</string>
     <string name="lockscreen_settings_title">Lockscreen</string>
+    <string name="notification_drawer_settings_title">Notification drawer</string>
 
     <!-- Buttons -->
     <string name="buttons_pref_title">Buttons</string>

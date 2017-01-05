@@ -26,6 +26,11 @@
             android:key="deathly_statusbar_settings"
             android:title="@string/statusbar_settings_title"/>
 
+         <PreferenceScreen
+            android:fragment="com.deathly.settings.fragments.NotificationDrawerSettings"
+            android:key="deathly_notification_drawer_settings"
+            android:title="@string/notification_drawer_settings_title"/>
+
         <PreferenceScreen
             android:fragment="com.deathly.settings.fragments.LockScreenSettings"
             android:key="deathly_lockscreen_settings"
