@@ -24,7 +24,7 @@
         <!--<PreferenceScreen
             android:fragment="com.deathly.settings.fragments.DisplaySettings"
             android:key="deathly_display_settings"
-            android:title="@string/display_settings_title"/>
+            android:title="@string/display_settings_title"/>-->
 
         <PreferenceScreen
             android:fragment="com.deathly.settings.fragments.StatusBarSettings"
