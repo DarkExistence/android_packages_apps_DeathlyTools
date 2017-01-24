@@ -15,12 +15,19 @@
 <PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
 
-    <PreferenceScreen
-        android:title="@string/navbar_tuner_title"
-        android:summary="@string/navbar_tuner_summary" >
-        <intent android:action="android.intent.action.MAIN"
-            android:targetPackage="com.android.systemui"
-            android:targetClass="com.android.systemui.tuner.NavbarActivity" />
-    </PreferenceScreen>
+    <PreferenceCategory
+        android:key="navigation_bar"
+        android:title="@string/navigation_bar_opt_cat" >
+
+        <PreferenceScreen
+            android:title="@string/navbar_tuner_title"
+            android:summary="@string/navbar_tuner_summary"
+            android:dependency="navigation_bar" >
+            <intent android:action="android.intent.action.MAIN"
+                android:targetPackage="com.android.systemui"
+                android:targetClass="com.android.systemui.tuner.NavbarActivity" />
+        </PreferenceScreen>
+
+    </PreferenceCategory>
 
 </PreferenceScreen>

@@ -29,6 +29,9 @@
     <string name="lockscreen_settings_title">Lockscreen</string>
     <string name="notification_drawer_settings_title">Notification drawer</string>
     <string name="display_settings_title">Display</string>
+    <string name="navbar_settings_title">Navigation bar</string>
+    <string name="navigation_bar_opt_cat">Navigation bar options</string>
+    <string name="navigation_bar_cus">Navbar customization</string>
 
     <!-- General strings -->
     <string name="cancel">Cancel</string>
@@ -89,8 +92,6 @@
 
     <!-- Buttons -->
     <string name="buttons_pref_title">Buttons</string>
-    <string name="enable_navigation_bar_title">Enable software keys</string>
-    <string name="enable_navigation_bar_summary">Enable on-screen navigation keys</string>
     <string name="swap_navigation_keys_title">Swap keys</string>
     <string name="swap_navigation_keys_summary">Swap back and recents keys</string>
     <string name="swap_slider_order_title">Swap slider modes</string>
@@ -260,8 +261,6 @@
     <string name="qs_advanced_data_summary">Enable one tap action to enable or disable data</string>
 
     <!-- system ui tuner settings -->
-    <string name="navbar_tuner_title">Navbar tuner</string>
-    <string name="navbar_tuner_summary">Customize buttons and layout</string>
     <string name="qs_brightness_slider_title">Brightness slider</string>
     <string name="qs_brightness_slider_summary">Show brightness slider on quick settings panel</string>
     <string name="power_notification_title">Power notification controls</string>
@@ -276,5 +275,12 @@
     <string name="volbtn_up_zen_summary">allow volume up to exit do not disturb mode</string>
     <string name="vol_zen_title">Do not disturb switch</string>
     <string name="vol_zen_summary">Show do not disturb switch on volume panel</string>
+
+    <!-- Navbar toggle -->
+    <string name="enable_navigation_bar_title">Enable software keys</string>
+    <string name="enable_navigation_bar_summary">Enable on-screen navigation keys</string>
+    <!-- Navbar tuner -->
+    <string name="navbar_tuner_title">Navbar tuner</string>
+    <string name="navbar_tuner_summary">Customize buttons and layout</string>
 
 </resources>
